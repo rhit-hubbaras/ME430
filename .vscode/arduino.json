@@ -2,5 +2,5 @@
     "configuration": "cpu=atmega2560",
     "board": "arduino:avr:mega",
     "port": "COM6",
-    "sketch": "Lab1PartA\\Lab1PartA.ino"
+    "sketch": "Lab2\\Lab2PartD\\Lab2PartD.ino"
 }
