@@ -1,0 +1,27 @@
+#define REG_DDR_BUTTON DDRB
+#define REG_PORT_BUTTON PORTB
+#define REG_PIN_BUTTON PINB
+#define BIT_BUTTON 0
+
+#define REG_DDR_MOTOR DDRB
+#define REG_PORT_MOTOR PORTB
+#define REG_PIN_MOTOR PINB
+#define BIT_MOTOR 1
+
+void setup()
+{
+  REG_DDR_BUTTON &= ~_BV(BIT_BUTTON);
+  REG_DDR_MOTOR |= _BV(BIT_MOTOR);
+  
+  REG_PORT_BUTTON |= _BV(BIT_BUTTON);
+}
+
+void loop()
+{
+  if(!(REG_PIN_BUTTON & _BV(BIT_BUTTON))){
+    REG_PORT_MOTOR |= _BV(BIT_MOTOR);
+  }else{
+    REG_PORT_MOTOR &= ~_BV(BIT_MOTOR);
+  }
+  delay(10);
+}

@@ -1,0 +1,1 @@
+#define __AVE_ATmega_2560__
