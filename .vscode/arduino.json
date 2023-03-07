@@ -2,5 +2,5 @@
     "configuration": "cpu=atmega2560",
     "board": "arduino:avr:mega",
     "port": "COM6",
-    "sketch": "HW Demos\\Interrupts\\InterruptCounter.ino"
+    "sketch": "Project\\Project.ino"
 }

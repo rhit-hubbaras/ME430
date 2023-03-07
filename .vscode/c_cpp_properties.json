@@ -18,6 +18,9 @@
             "includePath": [
                 "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
                 "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\mega",
+                "C:\\Program Files (x86)\\Arduino\\libraries\\Servo\\src",
+                "C:\\Program Files (x86)\\Arduino\\libraries\\Stepper\\src",
+                "C:\\Users\\hubbaras\\Documents\\Arduino\\libraries\\Keypad\\src",
                 "c:\\program files (x86)\\arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include",
                 "c:\\program files (x86)\\arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include-fixed",
                 "c:\\program files (x86)\\arduino\\hardware\\tools\\avr\\avr\\include"
@@ -28,7 +31,7 @@
             "cStandard": "c11",
             "cppStandard": "c++11",
             "defines": [
-                "__AVR_ATmega2560__",
+                "__AVR_MEGA2560__",
                 "F_CPU=16000000L",
                 "ARDUINO=10819",
                 "ARDUINO_AVR_MEGA2560",
